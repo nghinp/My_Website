@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #ffe6f2;
+      text-align: center;
+      padding: 40px;
+    }
+
+    .h1 {
+  color: #b85a7a;     
+  margin-bottom: 20px;
+  font-size: 32px;
+  text-align: center; 
+  padding-top: 40px;
+}
+
+    p.subtitle {
+      color: #666;
+      font-size: 18px;
+      margin-bottom: 40px;
+      padding-top: 20px;
+    }
+
+    .projects-container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .project-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 320px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .project-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .project-content {
+      padding: 15px;
+    }
+
+    .project-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 10px 0;
+      color: #333;
+    }
+
+    .project-meta {
+      color: #a25ac4;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .project-desc {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .read-more {
+      color: #d63384;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .read-more:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Projects</h1>
+  <p class="subtitle">A showcase of my latest works and creative endeavors.</p>
+
+  <div class="projects-container">
+    <div class="project-card">
+      <img src="images/s1.png" alt="Project 1">
+      <div class="project-content">
+        <p class="project-meta">by Phuong Nghi and teammates</p>
+        <h3 class="project-title">DSA-Project</h3>
+        <p class="project-desc">A Sudoku game.</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="images/s2.png" alt="Project 2">
+      <div class="project-content">
+        <p class="project-meta">by Phuong Nghi and teammates</p>
+        <h3 class="project-title">SE-Project</h3>
+        <p class="project-desc">An online learning management system.</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="images/s3.png" alt="Project 3">
+      <div class="project-content">
+        <p class="project-meta">by Phuong Nghi and teammates</p>
+        <h3 class="project-title">PDM-Project</h3>
+        <p class="project-desc"> An employee attendance system database.</p>
+        <a href="#" class="read-more">Read More</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+

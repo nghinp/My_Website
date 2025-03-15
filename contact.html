@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="shortcut icon" href="images/favicon.ico">
+
+<style>
+    body {
+      background-color: #ffe6f2;  
+      margin: 0;
+      padding: 40px 20px;        
+      font-family: Arial, sans-serif;
+    }
+
+    
+    h1.page-title {
+      text-align: center;
+      color: #b85a7a; 
+      margin-bottom: 20px;
+      font-size: 32px;
+    }
+
+    .container {
+      display: flex;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 900px;
+      margin: 0 auto; 
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .image-section {
+      flex: 1;
+      padding-right: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .image-section img {
+      max-width: 80%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    /* Right form section */
+    .form-section {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-right: 40px;
+    }
+
+    /* Labels & inputs */
+    label {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    /* Submit button */
+    button {
+      margin-top: 15px;
+      padding: 10px;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #333;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  
+  <h1 class="page-title">Contact Us</h1>
+
+  <div class="container">
+    <div class="image-section">
+      <img src="images/me.png" alt="Profile Picture">
+    </div>
+
+    <div class="form-section">
+      <form action="#" method="post">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name..." required>
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="Your email..." required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Write something..." required></textarea>
+
+        <button type="submit">Contact Us</button>
+      </form>
+
+      <div class="social-icons">
+        <a href="https://www.facebook.com/nghi.nguyen.phuong.316719" target="_blank">
+          <img src="images/fb.png" alt="Facebook" width="30">
+        </a>
+        <a href="https://www.instagram.com/noponiii/" target="_blank">
+          <img src="images/ins.gif" alt="Instagram" width="30">
+        </a>
+        <a href="https://twitter.com/your-twitter" target="_blank">
+          <img src="images/twi.png" alt="Twitter" width="30">
+        </a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
